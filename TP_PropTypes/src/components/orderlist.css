@@ -1,0 +1,17 @@
+.order-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
+  }
+  
+  @media (max-width: 992px) {
+    .order-list {
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .order-list {
+      grid-template-columns: 1fr;
+    }
+  }
